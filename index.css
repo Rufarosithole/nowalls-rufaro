@@ -1,0 +1,703 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url("/BalooBhaijaan-Regular.ttf");
+}
+@font-face {
+  font-family: "satcha";
+  src: url("/Baloo2-Regular.ttf");
+}
+h2 {
+  font-size: 40px;
+  font-family: "myfont", BalooBhaijaan;
+}
+
+p {
+  font-family: "satcha", Baloo2;
+  font-size: 16px;
+}
+
+button {
+  font-family: "myfont", BalooBhaijaan;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.hum {
+  position: relative;
+  left: 20rem;
+}
+
+.navigation {
+  font-family: "myfont", Baloo Bhaijaan;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navigation .navigation2 {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+  justify-content: space-between;
+  justify-content: space-evenly;
+}
+.navigation .navigation2 a {
+  text-decoration: none;
+  font-size: 32px;
+  margin-left: 20px;
+  color: rgb(0, 62, 84);
+}
+.navigation .con {
+  color: rgb(215, 123, 65);
+}
+.navigation .ervices {
+  margin-right: 100px;
+}
+.navigation .Submit {
+  margin-right: 100px;
+}
+.navigation .logo1 {
+  display: flex;
+  justify-content: start;
+}
+
+.home {
+  font-family: "myfont", Baloo Bhaijaan;
+}
+.home h1 {
+  font-size: 40px;
+  color: rgb(0, 62, 84);
+}
+.home h1 {
+  font-size: 73px;
+  font-weight: 900;
+}
+.home img {
+  width: 100%;
+}
+.home .rect6 {
+  margin-top: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 98%;
+}
+.home h2 {
+  color: rgb(0, 62, 84);
+  font-family: "myfont", Baloo Bhaijaan;
+}
+.home .nowalls {
+  color: rgb(215, 123, 65);
+  font-size: 50px;
+}
+.home .main {
+  display: flex;
+}
+.home .logo1 {
+  display: flex;
+  margin-left: 30px;
+}
+.home .rect3 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 15px;
+}
+.home .pok {
+  margin-bottom: 15px;
+}
+.home .line1 {
+  border: 1px solid rgb(215, 123, 65);
+  height: 1px;
+  width: 45px;
+  margin-top: 10px;
+}
+.home .para {
+  margin-left: 50px;
+  font-weight: bold;
+}
+.home .flex {
+  display: flex;
+  flex-direction: row;
+}
+.home .para {
+  margin: 6px;
+  margin-top: 2px;
+}
+.home .rue {
+  opacity: 35%;
+  margin-top: 2px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.home .innovative {
+  margin-left: 56px;
+  margin-right: 56px;
+}
+.home .grp {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  margin-top: 8px;
+}
+.home .rect4 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 26px;
+  width: 100%;
+}
+
+.lorem {
+  padding-top: 90px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-self: auto;
+}
+.lorem img {
+  width: 80%;
+}
+.lorem h2 {
+  color: rgb(215, 123, 65);
+  margin-bottom: 20px;
+}
+.lorem img {
+  margin-left: 60px;
+}
+.lorem .hd {
+  padding-top: 90px;
+  padding-bottom: 70px;
+}
+.lorem .about {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#services {
+  background-color: #0A3140;
+  width: 100%;
+  height: 95vh;
+  background-size: cover;
+  padding-top: 5pxpx;
+  padding-bottom: 90px;
+}
+#services h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 39px;
+  color: white;
+}
+#services .card {
+  background-color: rgb(0, 62, 84);
+  width: 70vh;
+  color: white;
+}
+#services .line {
+  width: 323px;
+  color: #CD7E50;
+  border: solid 1px;
+  height: 1px;
+  display: flex;
+}
+#services .carousel-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carding {
+  padding-left: 20px;
+}
+.carding img {
+  width: 66vh;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 90px;
+}
+.subscribe .button {
+  background-color: #0B394D;
+  padding: 15px;
+  width: 260px;
+  margin-top: 40px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: "myfont", BalooBhaijaan;
+}
+.subscribe h2 {
+  color: #CD7E50;
+  margin-bottom: 40px;
+}
+.subscribe img {
+  margin-left: 40px;
+  width: 40%;
+  height: 60vh;
+}
+
+.contact {
+  background-color: rgb(243, 244, 246);
+  border-style: none;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.contact img {
+  height: 100vh;
+  width: 70%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.contact .forms {
+  margin-left: 150px;
+  width: 65%;
+  border-style: none;
+  background-color: rgb(243, 244, 246);
+}
+.contact a {
+  text-decoration: none;
+  color: white;
+}
+.contact .button {
+  background-color: #0A3140;
+  padding: 10px;
+  width: 65%;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+.contact h2 {
+  color: #CD7E50;
+  padding-top: 70px;
+}
+.contact .message {
+  margin-top: 14px;
+  border-style: none;
+  color: rgb(128, 151, 160);
+  padding-top: 10px;
+  padding-left: 13px;
+}
+.contact .form-control {
+  border-style: none;
+  padding: 15px;
+  color: rgb(128, 151, 160);
+}
+.contact .get {
+  margin-left: 60px;
+}
+.contact .rect76 {
+  margin-top: 70px;
+}
+
+.Nowalls {
+  background-image: url("/images/Group 9.png");
+  background-size: cover;
+  height: 50vh;
+  background-repeat: no-repeat;
+  color: white;
+  margin-top: 80px;
+}
+.Nowalls .image4 {
+  height: 70vh;
+  background-repeat: no-repeat;
+}
+.Nowalls .phonenumber {
+  display: flex;
+  margin-left: 150px;
+}
+.Nowalls .sit {
+  display: flex;
+  margin-left: 30px;
+}
+.Nowalls h2 {
+  font-family: "myfont", BalooBhaijaan;
+  margin-left: 40px;
+  padding-top: 90px;
+}
+.Nowalls .walls {
+  font-family: "myfont", BalooBhaijaan;
+  margin-left: 25px;
+}
+.Nowalls .great {
+  margin-left: 20px;
+  font-family: "myfont", BalooBhaijaan;
+}
+.Nowalls .blue {
+  margin-left: 20px;
+  display: flex;
+  padding-top: 10px;
+}
+
+.lol {
+  font-family: "myfont", BalooBhaijaan;
+}
+.lol .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  padding-top: 15px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: white;
+  margin-left: 50px;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #0A3140;
+  font-weight: bold;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media (max-width: 576px) {
+  .subscribe {
+    margin-top: 600px;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    position: relative;
+    left: 20rem;
+  }
+  .overlay {
+    margin-left: -2px;
+  }
+  .navigation img {
+    width: 45%;
+  }
+  .navigation .navigation2 {
+    display: none;
+  }
+  .home {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .home .innovative {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .home h1 {
+    font-size: 23px;
+  }
+  .home h2 {
+    font-size: 15px;
+  }
+  .home .nowalls {
+    font-size: 22px;
+  }
+  .home .para {
+    font-size: 10px;
+  }
+  .home .grp {
+    display: none;
+  }
+  .home .rect6 {
+    display: none;
+  }
+  .home .rect4 {
+    display: none;
+  }
+  .home .rue {
+    display: none;
+  }
+  .lorem {
+    margin-right: 52px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .lorem h2 {
+    font-size: 20px;
+    margin-left: -26px;
+  }
+  .lorem p {
+    font-size: 12px;
+    margin-left: -26px;
+  }
+  .lorem img {
+    margin-bottom: 30px;
+    width: 70%;
+    margin-right: 60px;
+  }
+  .lorem .hd {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .service .line {
+    width: 338px;
+  }
+  .service p {
+    width: 338px;
+  }
+  .service .serve {
+    margin-left: 2px;
+  }
+  .service h2 {
+    font-size: 20px;
+    margin-left: 26px;
+  }
+  .service .objects {
+    display: flex;
+    flex-direction: column;
+  }
+  .service .card-img-top {
+    width: 95%;
+  }
+  .service h5 {
+    font-size: 15px;
+  }
+  .service .card2 {
+    width: 200px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  .service .carousel-indicators {
+    display: none;
+  }
+  #services .carousel-indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .carding img {
+    margin-left: 110px;
+  }
+  .carding {
+    width: 80%;
+  }
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-top: 475px;
+  }
+  .subscribe img {
+    width: 170%;
+    height: 5q q1 0vh;
+    margin-left: 10px;
+    padding-top: 30px;
+  }
+  .subscribe h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-left: -62px;
+  }
+  .subscribe .button {
+    padding: 15px;
+    font-size: 14px;
+    margin-left: -62px;
+  }
+  .contact img {
+    height: 50vh;
+    width: 90%;
+  }
+  .contact h2 {
+    font-size: 25px;
+    margin-right: 48px;
+  }
+  .contact p {
+    font-size: 10px;
+    margin-right: 53px;
+  }
+  .contact .forms {
+    margin-left: 33px;
+    width: 85%;
+  }
+  .contact .button {
+    margin-left: 32px;
+    width: 86%;
+  }
+  .contact .message {
+    width: 100%;
+  }
+  .Nowalls img {
+    background-size: cover;
+    background-position: right;
+  }
+  .Nowalls .sit {
+    margin-left: 8px;
+  }
+  .Nowalls h2 {
+    margin-left: 32px;
+    font-size: 16px;
+  }
+  .Nowalls .phonenumber {
+    margin-left: 21px;
+  }
+  .Nowalls p {
+    font-size: 14px;
+  }
+  .lol img {
+    width: 40%;
+    padding-top: 1px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .overlay {
+    height: 90%;
+    margin-left: 11px;
+  }
+  #services {
+    height: 56vh;
+  }
+  .navigation .navigation2 {
+    display: none;
+  }
+  .home h1 {
+    font-size: 60px;
+  }
+  .home .col-md-3 {
+    width: 100%;
+  }
+  .home h2 {
+    font-size: 30px;
+  }
+  .home .nowalls {
+    font-size: 40px;
+  }
+  .home .grp {
+    display: none;
+  }
+  .home .rect6 {
+    display: none;
+  }
+  .home .rect4 {
+    display: none;
+  }
+  .home .opa {
+    display: none;
+  }
+  .lorem h2 {
+    font-size: 33px;
+  }
+  .lorem img {
+    width: 100%;
+    margin-left: 74px;
+    margin-top: 200px;
+  }
+  .service .carousel-indicators {
+    display: none;
+  }
+  .service .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40rem;
+  }
+  .service .objects {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 42rem;
+  }
+  .service .line {
+    font-size: 648px;
+  }
+  .subscribe img {
+    height: 24vh;
+  }
+  .subscribe h2 {
+    font-size: 27px;
+  }
+  .subscribe .button {
+    font-size: 15px;
+  }
+  .contact .rect6 {
+    display: none;
+  }
+  .contact img {
+    height: 59vh;
+    width: 60%;
+  }
+  .contact h2 {
+    margin-right: 100px;
+    font-size: 30px;
+  }
+  .contact p {
+    font-size: 20px;
+    margin-right: 60px;
+  }
+  .contact .forms {
+    margin-right: 15px;
+    margin-left: 56px;
+    width: 78%;
+  }
+  .contact .message {
+    width: 100%;
+  }
+  .contact .button {
+    margin-right: 15px;
+    margin-left: 56px;
+    width: 78%;
+  }
+  .Nowalls .sit {
+    margin-left: 100px;
+    margin-top: 60px;
+  }
+  .Nowalls .phonenumber {
+    margin-top: 60px;
+  }
+  .Nowalls p {
+    font-size: 20px;
+  }
+  .Nowalls h2 {
+    padding-top: 100px;
+  }
+  .Nowalls .blue {
+    margin-left: 5px;
+  }
+  .lol img {
+    margin-bottom: 21px;
+  }
+}
+@media (min-width: 768px) {
+  .burg {
+    display: none;
+  }
+}/*# sourceMappingURL=index.css.map */

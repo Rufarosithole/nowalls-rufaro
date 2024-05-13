@@ -1,0 +1,1062 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url("/BalooBhaijaan-Regular.ttf");
+}
+
+@font-face{
+    font-family: "satcha";
+    src: url("/Baloo2-Regular.ttf");
+}
+
+h2{
+    font-size: 40px;
+    font-family: "myfont", BalooBhaijaan ;
+}
+
+p{
+    font-family: "satcha", Baloo2;
+    font-size: 16px;
+
+}
+
+
+button{
+
+    font-family: "myfont", BalooBhaijaan ;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.hum{
+    position: relative;
+    left: 20rem;
+}
+
+.navigation{
+
+    font-family: "myfont", Baloo Bhaijaan ;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     margin-left: 10px;  
+     margin-right: 10px;  
+
+    //  span{
+    //     position: relative;
+    //     left: -9rem;
+    //  }
+        .navigation2{
+        display: flex;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 40px;
+        justify-content: space-between;
+        justify-content: space-evenly;
+
+
+        a{
+            text-decoration: none;
+            font-size: 32px;
+            margin-left: 20px;
+            color: rgb(0, 62, 84);
+            
+            
+        }
+    
+     }
+
+    
+
+ 
+
+ .con{
+    color:  rgb(215, 123, 65);
+}
+
+
+.ervices{
+    margin-right: 100px;
+}
+
+.Submit{
+    margin-right: 100px;
+}
+
+.logo1{
+    display: flex;
+    justify-content: start;
+}
+
+}
+
+// End Nav Bar //
+
+
+// Start banner //
+
+.home{
+    font-family: "myfont", Baloo Bhaijaan ;
+
+    
+    h1{
+        font-size: 40px;
+       
+        
+        color:rgb(0, 62, 84) ;
+    }
+    h1{
+        font-size: 73px;
+        font-weight: 900;
+    }
+    
+        
+
+        img{
+            width: 100%;
+            
+     }
+    .rect6{
+        margin-top: 150px;
+        object-fit: contain;
+        width: 98%;
+    }
+
+
+   
+    h2{
+        
+        color: rgb(0, 62, 84);
+        font-family: "myfont", Baloo Bhaijaan ;
+    }
+        
+
+   
+     .nowalls{
+        color:rgb(215, 123, 65) ;
+        font-size: 50px;
+     }
+
+   .main{
+
+    display: flex;
+   }
+
+
+     .logo1{
+        display: flex;
+        margin-left: 30px;
+     }
+
+     .rect3{
+        // padding-top: 5px;
+        object-fit: contain;
+        margin-top: 15px;
+        // height: 40vh;
+
+     }
+
+     .pok{
+
+        margin-bottom: 15px;
+     }
+
+     .line1{
+        border :1px solid rgb(215, 123, 65);
+        height: 1px;
+        width: 45px;
+       margin-top: 10px;
+        
+     }
+
+     .para{
+        margin-left: 50px;
+        font-weight: bold;
+     }
+
+     .flex{
+
+        display: flex;
+        flex-direction: row;
+    
+     }
+
+     .para{
+        margin: 6px;
+        margin-top: 2px;
+     }
+
+     .rue{
+        opacity: 35%;
+        margin-top: 2px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+     }
+
+
+     .innovative{
+        margin-left: 56px;
+        margin-right: 56px;
+     }
+
+     .grp{
+
+        object-fit: contain;
+        width: 100%;
+        margin-top: 8px;
+
+
+     }
+
+     .rect4{
+
+        object-fit: contain;
+        margin-top: 26px;
+        width: 100%;
+     }
+}
+
+// End banner //
+
+
+// Star About //
+
+.lorem{
+    
+    padding-top: 90px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-self: auto;
+    img{
+        
+        width: 80%;
+    }
+    h2{
+        color: rgb(215, 123, 65);
+        margin-bottom: 20px;
+    }
+
+
+    img{
+
+        margin-left: 60px;
+    }
+
+    .hd{
+        padding-top: 90px;
+    padding-bottom: 70px;
+    }
+
+    .about{
+
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+// End About //
+
+
+    
+// Start services //
+#services{
+    background-color: #0A3140;
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+    padding-top: 5pxpx;
+    padding-bottom: 90px;
+
+    h2{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 39px;
+        color: white;
+    }
+
+    .card{
+        background-color: rgb(0, 62, 84);
+        width: 70vh;
+        color: white;
+
+    }
+
+    .line{
+            width: 323px;
+            color: #CD7E50;
+            border: solid 1px ;
+            height: 1px;
+            display: flex;
+    }
+
+    .carousel-indicators{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+}
+}
+
+.carding{
+    padding-left: 20px;
+
+    img{
+        width: 66vh;
+    }
+}
+
+
+// .services{
+    
+//     background-color: #0B394D;
+//     width: 100%;
+//     height: 90vh;
+//     background-size: cover;
+//     padding-top: 23px;
+//     padding-bottom: 100px;
+
+//     .carousel-indicators{
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//     }
+    
+// .grrr{
+//     margin: 78px;
+// }
+//    h2{ font-family: "myfont", BalooBhaijaan ;
+//      padding-bottom: 40px;
+//      color: white;
+//      font-size: 44px;
+//    } 
+
+//    .card{
+//     background-color: rgb(0, 62, 84);
+//     color: white;
+//    }
+//    a{
+//     font-family: "myfont", BalooBhaijaan ;
+//     text-decoration: none;
+//     font-size: 27px;
+//     margin-left: 35px;
+//     font-weight:900 ;
+//     color: $services-color;
+// }
+
+// h5{
+//     font-family: "myfont", BalooBhaijaan ;
+//     color: $primary-color;
+
+// }
+
+// .line{
+//     width: 323px;
+//     border: solid 1px ;
+//     height: 1px;
+//     display: flex;
+
+//  }
+
+// }
+     
+   
+// // Start Subscribe //
+.subscribe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 90px;
+    
+   
+
+
+    .button{
+
+        background-color: #0B394D;
+        padding: 15px;
+        width: 260px;
+        margin-top: 40px;
+        font-size: 18px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-family: "myfont", BalooBhaijaan ;
+
+    }
+
+
+    h2{
+        color: #CD7E50;
+        margin-bottom: 40px;
+    }
+
+img{
+
+    margin-left: 40px;
+    width: 40%;
+    height: 60vh;
+}
+
+}
+   
+    
+
+// // End Subscribe //
+
+
+// Start Contact //
+
+.contact{
+    
+    background-color:rgb(243, 244, 246);
+   border-style: none;
+    text-align: center;
+    padding-bottom: 80px;
+  
+
+  img{
+    
+    height: 100vh;
+    width:70%;
+    object-fit:  fill;
+  }
+  
+
+  .forms{
+  
+    margin-left: 150px;
+    width: 65%;
+    border-style: none;
+    background-color: rgb(243, 244, 246);
+    
+    
+  }
+  a{
+    text-decoration: none;
+    color: white;
+   
+  }
+  .button{
+    background-color: #0A3140;
+    padding: 10px;
+    width: 65%;
+    margin-left: 150px;
+    margin-top: 5px;
+    
+  }
+
+  h2{
+    color: #CD7E50;
+    padding-top: 70px;
+  }
+
+  .message{
+    margin-top: 14px;
+    border-style: none;
+    color: rgb(128, 151, 160);
+    padding-top: 10px;
+    padding-left: 13px;
+
+   
+  }
+
+  .form-control{
+    border-style: none;
+    padding: 15px;
+    color: rgb(128, 151, 160);
+  }
+
+
+  .get{
+    margin-left: 60px;
+    
+  }
+
+  .rect76{
+
+// height: 70vh;
+margin-top: 70px;
+  }
+}
+
+
+// End Subscribe //
+
+
+// Start Below Footer //
+
+   .Nowalls{
+    background-image: url("/images/Group\ 9.png");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 80px;
+
+   .image4{
+
+    height: 70vh;
+    background-repeat: no-repeat;
+   }
+
+.phonenumber{
+   
+    display: flex;
+    margin-left: 150px;
+}
+.sit{
+   
+    display: flex;
+    margin-left: 30px;
+ 
+}
+
+h2{
+    font-family: "myfont", BalooBhaijaan ;
+    margin-left:40px ;
+    padding-top:  90px;
+}
+
+.walls{
+    font-family: "myfont", BalooBhaijaan ;
+    margin-left: 25px;
+}
+
+
+.great{
+    margin-left: 20px;
+    font-family: "myfont", BalooBhaijaan ;
+}
+
+.blue{
+    margin-left: 20px;
+        display: flex;
+        // justify-content: space-between;
+        padding-top: 10px;
+        
+    }
+
+}
+
+
+.lol{
+    font-family: "myfont", BalooBhaijaan ;
+   
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        padding-top: 15px;
+        
+    }
+}
+
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color:  white;
+    margin-left: 50px;
+    
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color:  #0A3140;
+    font-weight: bold;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+
+
+@media(max-width:576px)
+{
+
+    .subscribe{
+        margin-top: 600px;
+    }
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    position: relative;
+    left: 20rem;
+    }
+
+    .overlay{
+        margin-left: -2px;
+    }
+  .navigation{
+
+    
+    img{
+        width: 45%;
+    }
+    .navigation2{
+        display: none;
+    }
+  }
+    .home{
+        margin-left: 12px;
+        margin-right: 12px;
+
+
+        .innovative{
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+        h1{
+         font-size: 23px;
+        }
+
+        h2{
+font-size: 15px;
+
+        }
+
+        .nowalls{
+           font-size: 22px; 
+        }
+
+        .para{
+         font-size: 10px;   
+        }
+
+
+        .grp{
+            display: none;
+        }
+
+        .rect6{
+            display: none;
+        }
+
+        .rect4{
+            display: none;
+        }
+
+        .rue{
+            display: none;
+        }
+    }
+    
+
+
+    .lorem{
+        margin-right: 52px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+
+      h2{
+       font-size: 20px; 
+       margin-left: -26px;
+    
+      } 
+      
+      p{
+        font-size: 12px;
+    margin-left: -26px;
+      }
+
+      img{
+        margin-bottom: 30px;
+        width: 70%;
+        margin-right: 60px;
+      }
+
+      .hd{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        // margin-left: 12px;
+        // margin-right: 12px;
+
+      }
+      
+    }
+
+
+    .service{
+
+        .line{
+            width: 338px;
+        }
+
+        p{
+            width: 338px;
+        }
+
+        .serve{
+            margin-left: 2px;
+        }
+   
+        h2{
+            font-size: 20px;
+            margin-left: 26px;
+    }
+.objects{
+    display: flex;
+    flex-direction: column;
+}
+   
+
+    .card-img-top{
+
+        width: 95%;
+    }
+
+    h5{
+        // margin-left: 157px;
+        font-size: 15px;
+    }
+
+    .card2{
+
+        width: 200px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    
+
+
+    .carousel-indicators{
+    display: none;
+
+    }
+}
+
+#services .carousel-indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.carding img{
+    margin-left: 110px;
+}
+
+.carding{
+    // padding-left: 16px;
+    // padding-right: 106px;
+    width: 80%;
+}
+
+
+.subscribe{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 475px;
+
+
+    img{
+    width: 170%;
+    height: 5q  q1  0vh;
+    margin-left: 10px;
+    padding-top: 30px;
+    
+
+    }
+
+
+    h2{
+      font-size: 24px; 
+      margin-bottom: 30px; 
+      margin-left: -62px;
+    }
+
+    .button{
+        padding: 15px;
+        font-size: 14px;
+        margin-left: -62px;
+    }
+}
+
+.contact{
+
+    img{
+        height: 50vh;
+        width: 90%;
+    }
+
+    h2{
+       font-size:25px ; 
+       margin-right: 48px;
+    }
+
+    p{
+        font-size: 10px;
+        margin-right: 53px;
+    }
+
+    .forms{
+        margin-left: 33px;
+        width: 85%;
+    }
+
+    .button{
+        margin-left: 32px;
+        width: 86%;
+    }
+
+    .message{
+        width: 100%;
+    }
+}
+
+
+.Nowalls{
+ img{
+    background-size: cover;
+    background-position: right;  
+ } 
+ .sit{
+
+    margin-left: 8px;
+ }
+  h2{
+    margin-left: 32px;
+    font-size: 16px;
+  }
+ 
+  .phonenumber{
+    margin-left: 21px;
+}
+
+p{
+    font-size: 14px;
+}
+}
+
+.lol{
+
+    img{
+        width: 40%;
+        padding-top: 1px;
+    }
+
+}
+
+}
+
+
+
+
+@media only screen and (min-width:577px) and (max-width:768px){
+
+    .overlay{
+        height: 90%;
+        margin-left: 11px;
+    }
+
+    #services{
+        height: 56vh;
+    }
+
+    .navigation{
+
+        .navigation2{
+            display: none;
+        }
+    }
+
+    .home{
+        h1{
+            font-size: 60px;
+        }
+.col-md-3{
+ width: 100%;   
+}
+
+    h2{
+        font-size: 30px;
+    }
+
+    .nowalls{
+        font-size: 40px;
+    }
+.grp{
+    display: none;
+}
+
+.rect6{
+    display: none;
+}
+
+.rect4{display: none;}
+
+.opa{display: none;}
+
+    }
+
+
+.lorem{
+    h2{font-size: 33px;}
+    img{
+    width: 100%;
+    margin-left: 74px;
+    margin-top: 200px;
+
+    }
+
+    
+
+}
+.service{
+   
+    
+    .carousel-indicators{display: none;}
+
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width:40rem;
+    }
+    .objects{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 42rem;
+    }
+
+
+    .line{
+       font-size: 648px; 
+    }
+}
+
+.subscribe{
+
+    img{
+        height: 24vh;
+    }
+    h2{
+        font-size: 27px;
+    }
+    .button{font-size: 15px;}
+}
+
+.contact{
+
+    .rect6{
+        display: none;
+    }
+img{
+    height: 59vh;
+    width: 60%;
+}
+h2{
+    margin-right: 100px;
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    margin-right: 60px;
+}
+
+.forms{
+    margin-right: 15px;
+    margin-left: 56px;
+    width: 78%;
+}
+.message{
+    width: 100%;
+}
+
+.button{
+    margin-right: 15px;
+    margin-left: 56px;
+    width: 78%;
+
+}
+
+}
+
+.Nowalls{
+    
+    .sit{
+        margin-left: 100px;
+        margin-top: 60px;
+    }
+
+    .phonenumber{
+        margin-top: 60px;
+    }
+
+    p{font-size: 20px;}
+
+
+    h2{
+        padding-top: 100px;
+    }
+
+    .blue{
+margin-left: 5px;
+    }
+}
+.lol{
+
+    img{
+        margin-bottom: 21px;
+    }
+}
+
+
+
+
+}
+
+@media screen and (max-width:1025px) {
+    
+    
+}
+
+@media (min-width:768px){
+
+    .burg{
+        display: none;
+    }
+}
+
