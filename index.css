@@ -17,7 +17,7 @@ h2 {
 }
 
 p {
-  font-family: "satcha", Baloo2;
+  font-family: "satcha" Baloo2;
   font-size: 16px;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .navigation {
-  font-family: "myfont", Baloo Bhaijaan;
+  font-family: "myfont", BalooBhaijaan;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -71,7 +71,7 @@ body {
 }
 
 .home {
-  font-family: "myfont", Baloo Bhaijaan;
+  font-family: "myfont", BalooBhaijaan;
 }
 .home h1 {
   font-size: 40px;
@@ -92,7 +92,7 @@ body {
 }
 .home h2 {
   color: rgb(0, 62, 84);
-  font-family: "myfont", Baloo Bhaijaan;
+  font-family: "myfont", BalooBhaijaan;
 }
 .home .nowalls {
   color: rgb(215, 123, 65);
@@ -299,7 +299,7 @@ body {
 }
 
 .Nowalls {
-  background-image: url("/images/Group 9.png");
+  background-image: url("images/Group 9.png");
   background-size: cover;
   height: 50vh;
   background-repeat: no-repeat;
@@ -338,7 +338,7 @@ body {
 }
 
 .lol {
-  font-family: "myfont", BalooBhaijaan;
+  font-family: "myfont", balooBhaijaan;
 }
 .lol .image {
   display: flex;
@@ -694,6 +694,21 @@ body {
   }
   .lol img {
     margin-bottom: 21px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  #services {
+    height: 58vh;
+  }
+  .Nowalls {
+    height: 22vh;
+  }
+  .subscribe img {
+    height: 30vh;
+    width: 41%;
+  }
+  .contact img {
+    height: 42vh;
   }
 }
 @media (min-width: 768px) {

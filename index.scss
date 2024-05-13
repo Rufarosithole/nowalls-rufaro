@@ -16,11 +16,11 @@
 
 h2{
     font-size: 40px;
-    font-family: "myfont", BalooBhaijaan ;
+    font-family: "myfont", BalooBhaijaan;
 }
 
 p{
-    font-family: "satcha", Baloo2;
+    font-family: "satcha" Baloo2;
     font-size: 16px;
 
 }
@@ -42,7 +42,7 @@ body{
 
 .navigation{
 
-    font-family: "myfont", Baloo Bhaijaan ;
+    font-family: "myfont", BalooBhaijaan;
      display: flex;
      justify-content: space-between;
      flex-direction: row;
@@ -103,7 +103,7 @@ body{
 // Start banner //
 
 .home{
-    font-family: "myfont", Baloo Bhaijaan ;
+    font-family: "myfont", BalooBhaijaan ;
 
     
     h1{
@@ -134,7 +134,7 @@ body{
     h2{
         
         color: rgb(0, 62, 84);
-        font-family: "myfont", Baloo Bhaijaan ;
+        font-family: "myfont", BalooBhaijaan;
     }
         
 
@@ -494,7 +494,7 @@ margin-top: 70px;
 // Start Below Footer //
 
    .Nowalls{
-    background-image: url("/images/Group\ 9.png");
+    background-image: url("images/Group\ 9.png");
     background-size: cover;
     height: 50vh;
     background-repeat: no-repeat;
@@ -533,7 +533,7 @@ h2{
 
 .great{
     margin-left: 20px;
-    font-family: "myfont", BalooBhaijaan ;
+    font-family: "myfont", BalooBhaijaan;
 }
 
 .blue{
@@ -548,7 +548,7 @@ h2{
 
 
 .lol{
-    font-family: "myfont", BalooBhaijaan ;
+    font-family: "myfont", balooBhaijaan;
    
     .image{
         display: flex;
@@ -1036,6 +1036,10 @@ p{
 margin-left: 5px;
     }
 }
+
+
+
+
 .lol{
 
     img{
@@ -1048,7 +1052,27 @@ margin-left: 5px;
 
 }
 
-@media screen and (max-width:1025px) {
+@media screen and  (min-width:769px) and (max-width:1025px) {
+
+    #services{
+        height: 58vh;
+    }
+
+    .Nowalls {
+        height: 22vh;    
+    }
+
+    .subscribe img {
+        height: 30vh;
+        width: 41%;
+    }
+
+    .contact img{
+        height: 42vh;
+
+    }
+
+
     
     
 }
