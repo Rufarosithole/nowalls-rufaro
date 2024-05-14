@@ -205,6 +205,8 @@ body {
   border: solid 1px;
   height: 1px;
   display: flex;
+  width: 100%;
+  margin-bottom: 15px;
 }
 #services .carousel-indicators {
   display: flex;
@@ -405,6 +407,7 @@ body {
     left: 20rem;
   }
   .overlay {
+    width: 94%;
     margin-left: -2px;
   }
   .navigation img {
@@ -457,15 +460,25 @@ body {
   .lorem p {
     font-size: 12px;
     margin-left: -26px;
+    width: 140%;
   }
   .lorem img {
     margin-bottom: 30px;
     width: 70%;
     margin-right: 60px;
+    display: none;
   }
   .lorem .hd {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+  #services .card {
+    background-color: rgb(0, 62, 84);
+    width: 100%;
+    color: white;
+  }
+  #services .line {
+    width: 100%;
   }
   .service .line {
     width: 338px;
@@ -508,7 +521,7 @@ body {
     margin-left: 110px;
   }
   .carding {
-    width: 80%;
+    width: 100%;
   }
   .subscribe {
     display: flex;
@@ -531,8 +544,11 @@ body {
     font-size: 14px;
     margin-left: -62px;
   }
+  #subscribe {
+    padding-top: 73px;
+  }
   .contact img {
-    height: 50vh;
+    height: 71vh;
     width: 90%;
   }
   .contact h2 {
@@ -554,9 +570,11 @@ body {
   .contact .message {
     width: 100%;
   }
+  .Nowalls {
+    background-position: right;
+  }
   .Nowalls img {
     background-size: cover;
-    background-position: right;
   }
   .Nowalls .sit {
     margin-left: 8px;
@@ -611,6 +629,9 @@ body {
   .home .opa {
     display: none;
   }
+  .lorem p {
+    width: 134%;
+  }
   .lorem h2 {
     font-size: 33px;
   }
@@ -639,6 +660,10 @@ body {
   .service .line {
     font-size: 648px;
   }
+  .card-text:last-child {
+    margin-bottom: 0;
+    width: 33%;
+  }
   .subscribe img {
     height: 24vh;
   }
@@ -648,8 +673,10 @@ body {
   .subscribe .button {
     font-size: 15px;
   }
-  .contact .rect6 {
-    display: none;
+  .contact .rect76 {
+    margin-top: 120px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .contact img {
     height: 59vh;
@@ -675,6 +702,9 @@ body {
     margin-right: 15px;
     margin-left: 56px;
     width: 78%;
+  }
+  .Nowalls {
+    background-position: right;
   }
   .Nowalls .sit {
     margin-left: 100px;
@@ -711,8 +741,20 @@ body {
     height: 42vh;
   }
 }
-@media (min-width: 768px) {
-  .burg {
-    display: none;
+@media only screen and (min-width: 1399.98px) {
+  .overlay .closebtn {
+    position: absolute;
+    top: -8px;
+    right: 79px;
+    font-size: 60px;
+  }
+  .home .grp {
+    margin-top: 30px;
+  }
+  .contact .message {
+    width: 100%;
+  }
+  p.card-text {
+    width: 87%;
   }
 }/*# sourceMappingURL=index.css.map */

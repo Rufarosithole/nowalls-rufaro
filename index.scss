@@ -296,6 +296,8 @@ body{
             border: solid 1px ;
             height: 1px;
             display: flex;
+            width: 100%;
+            margin-bottom:15px;
     }
 
     .carousel-indicators{
@@ -622,6 +624,7 @@ h2{
     }
 
     .overlay{
+        width: 94%;
         margin-left: -2px;
     }
   .navigation{
@@ -694,12 +697,14 @@ font-size: 15px;
       p{
         font-size: 12px;
     margin-left: -26px;
+    width: 140%;
       }
 
       img{
         margin-bottom: 30px;
         width: 70%;
         margin-right: 60px;
+        display: none;
       }
 
       .hd{
@@ -710,6 +715,16 @@ font-size: 15px;
 
       }
       
+    }
+
+    #services .card {
+        background-color: rgb(0, 62, 84);
+        width: 100%;
+        color: white;
+    }
+
+    #services .line{
+        width: 100%;
     }
 
 
@@ -777,7 +792,7 @@ font-size: 15px;
 .carding{
     // padding-left: 16px;
     // padding-right: 106px;
-    width: 80%;
+    width: 100%;
 }
 
 
@@ -811,10 +826,14 @@ font-size: 15px;
     }
 }
 
+#subscribe{
+    padding-top: 73px;
+}
+
 .contact{
 
     img{
-        height: 50vh;
+        height: 71vh;
         width: 90%;
     }
 
@@ -845,9 +864,10 @@ font-size: 15px;
 
 
 .Nowalls{
+    background-position: right;
  img{
     background-size: cover;
-    background-position: right;  
+     
  } 
  .sit{
 
@@ -930,6 +950,10 @@ p{
 
 
 .lorem{
+
+    p{
+        width: 134%;
+    }
     h2{font-size: 33px;}
     img{
     width: 100%;
@@ -967,6 +991,11 @@ p{
     }
 }
 
+.card-text:last-child {
+    margin-bottom: 0;
+    width: 33%;
+}
+
 .subscribe{
 
     img{
@@ -980,8 +1009,10 @@ p{
 
 .contact{
 
-    .rect6{
-        display: none;
+    .rect76{
+        margin-top: 120px;
+        object-fit: cover;
+        
     }
 img{
     height: 59vh;
@@ -1015,6 +1046,7 @@ p{
 }
 
 .Nowalls{
+    background-position: right;
     
     .sit{
         margin-left: 100px;
@@ -1077,10 +1109,33 @@ margin-left: 5px;
     
 }
 
-@media (min-width:768px){
+// @media (min-width:768px){
 
-    .burg{
-        display: none;
+//     .burg{
+//         display: none;
+//     }
+// }
+
+@media only screen and (min-width:1399.98px) {
+
+    .overlay .closebtn {
+        position: absolute;
+        top: -8px;
+        right: 79px;
+        font-size: 60px;
     }
-}
 
+    .home .grp{
+        margin-top: 30px;
+    }
+
+    .contact .message{
+        width: 100%;
+    }
+
+    p.card-text{
+        width: 87%;
+    }
+    
+}
+ 
