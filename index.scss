@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: "myfont";
-    src: url("/BalooBhaijaan-Regular.ttf");
+    src: url("BalooBhaijaan-Regular.ttf");
 }
 
 @font-face{
     font-family: "satcha";
-    src: url("/Baloo2-Regular.ttf");
+    src: url("Baloo2-Regular.ttf");
 }
 
 h2{
@@ -572,7 +572,7 @@ h2{
     top: 0;
     left: 0;
     background-color: rgb(0,0,0);
-    background-color:  white;
+    background-color:  #003E54;
     margin-left: 50px;
     
   }
@@ -589,7 +589,7 @@ h2{
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color:  #0A3140;
+    color:  white;
     font-weight: bold;
     display: block;
     transition: 0.3s;
@@ -864,7 +864,7 @@ font-size: 15px;
 
 
 .Nowalls{
-    background-position: right;
+    
  img{
     background-size: cover;
      
@@ -1118,6 +1118,8 @@ margin-left: 5px;
 
 @media only screen and (min-width:1399.98px) {
 
+
+
     .overlay .closebtn {
         position: absolute;
         top: -8px;
@@ -1138,4 +1140,8 @@ margin-left: 5px;
     }
     
 }
- 
+@media screen and (min-width:768px) {
+ .burg{
+
+ display: none;}   
+} 
