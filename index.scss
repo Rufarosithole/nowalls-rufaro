@@ -1145,3 +1145,66 @@ margin-left: 5px;
 
  display: none;}   
 } 
+
+@media screen and (min-width: 1399.98px){
+
+    .home .rect3 {
+        object-fit: contain;
+        margin-top: 11px;
+    }
+
+    .home .grp {
+        object-fit: contain;
+        width: 92%;
+        height: 48vh;
+    }
+
+    .home .rect6 {
+        margin-top: 150px;
+        object-fit: contain;
+        width: 100%;
+        margin-left: -24px;
+    }
+
+    .home .rect4 {
+        object-fit: contain;
+        margin-top: 17px;
+        width: 102%;
+        height: 50vh;
+        margin-left: -20px;
+    }
+
+    .home img {
+        width: 97%;
+    }
+
+    img.single{
+        width: 100%;
+    }
+
+    img.twin{
+        width: 104%;
+    }
+
+    img.single3{
+        width: 104%;
+    }
+
+    .lorem .hd {
+        padding-top: 90px;
+        padding-bottom: 70px;
+        margin-left: 27px;
+    }
+    #services {
+        background-color: #0A3140;
+        width: 100%;
+        height: 84vh;
+        background-size: cover;
+        padding-top: 5pxpx;
+        padding-bottom: 90px
+    }
+
+    .home img {
+        width: 100%;
+    }
+}
